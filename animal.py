@@ -1,10 +1,16 @@
 import sys
 
+def cat():
+	print("Moew")
+
+def default():
+	print("Hello")
+
 def main():
 	if sys.argv[1] == 'cat':
-		print("MEOW")
+		cat()
 	else:
-		print("Hello")
+		default()
 
 if __name__ == '__main__':
 	main()
