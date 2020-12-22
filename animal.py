@@ -1,7 +1,13 @@
 import sys
 
+def dog():
+	print("WOOF")
+
 def main():
-	print("Hello")
+	if sys.argv[1] == "dog":
+		dog()
+	else:
+		print("Hello")
 
 if __name__ == '__main__':
 	main()
