@@ -2,7 +2,7 @@ import sys
 
 
 def cat():
-	print("Moew")
+	print("MOEW")
 
 def default():
 	print("Hello")
